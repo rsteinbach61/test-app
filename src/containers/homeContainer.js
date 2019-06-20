@@ -14,7 +14,7 @@ render() {
 }
 const mapDispatchToProps = dispatch => {
   return{
-    changeText: () => dispatch({type: 'CHANGE_TEXT'})
+    changeText: () => dispatch({type: 'CHANGE_TEXT', value: "This is not a test" })
   }
 }
 const mapStateToProps = state => {
